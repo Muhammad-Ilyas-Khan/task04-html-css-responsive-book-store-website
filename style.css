@@ -29,7 +29,7 @@ nav a {
 /* home */
 .home {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: 50px;
 }
 .home div {
@@ -60,6 +60,54 @@ section {
 }
 section p {
     padding-top: 30px;
+}
+
+/* best seller */
+.best-selling {
+    padding-top: 20px;
+}
+.best-selling h3 {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.books-group {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.books {
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-color: #e5edf3;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.books img {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    filter: opacity(0.9);
+}
+.books-group h6 {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.books button {
+    background: #373b3e39;
+    color: rgb(255, 255, 255);
+    width: 10vw;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+
 }
 
 /* for mobile apps */
