@@ -5,56 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chapter & Verse</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
-    <figure>
-      <img src="./images/logo.png" alt="book-store logo" />
-    </figure>
-
-    <!--navbar-->
-    <nav>
-      <a href="">Home</a>
-      <a href="#best-seller">Best Seller</a>
-      <a href="#books">Books</a>
-    </nav>
+    <header>
+      <figure>
+        <img src="./images/logo.png" alt="book-store logo" />
+      </figure>
+      <!--navbar-->
+      <nav>
+        <a href="#">Home</a>
+        <a href="#best-seller">Best Seller</a>
+        <a href="#books">Books</a>
+      </nav>
+    </header>
 
     <!--home-->
-    <div class="home">
+    <section class="home">
       <div>
         <h2>Search books</h2>
         <input type="search" name="search" id="search" />
+        <img src="./images/search-books.jpg" alt="book" />
       </div>
-      <img src="./images/search-books.jpg" alt="book" />
-    </div>
+    </section>
+
     <!--section-->
     <section>
       <h3>Chapter & Verse Book Store</h3>
       <p>Where books and readers meet.</p>
       <p>Your favorite books on your doorstep.</p>
-      <p>Explore our book store and order.</p>
+      <p>Explore our bookstore and order.</p>
     </section>
 
     <!-- best seller -->
-    <div class="best-selling">
-      <h3 id="best-seller">Best Seller</h3>
+    <section class="best-selling" id="best-seller">
+      <h3>Best Seller</h3>
       <div class="books-group">
         <div class="books">
           <img
             src="./images/the-7-habits.png"
             alt="The seven habits of highly effective people"
           />
-          <h6>
-            The seven habits of highly .. <br />
-          <i>Stephen Covey</i>
-          </h6>
+          <h6>The seven habits of highly .. <br /><i>Stephen Covey</i></h6>
           <button>Buy Now</button>
         </div>
         <div class="books">
           <img src="./images/the-alchemist.jfif" alt="The alchemist" />
-          <h6>
-            The alchemist <br />
-            <i>Paulo Coelho</i>
-          </h6>
+          <h6>The alchemist <br /><i>Paulo Coelho</i></h6>
           <button>Buy Now</button>
         </div>
         <div class="books">
@@ -62,46 +62,50 @@
             src="./images/the-monk-who-sold.jpg"
             alt="The monk who sold his ferrari"
           />
-          <h6>
-            The monk who sold his .. <br />
-            <i>Robin Sharma</i>
-          </h6>
+          <h6>The monk who sold his .. <br /><i>Robin Sharma</i></h6>
           <button>Buy Now</button>
         </div>
       </div>
       <div class="books-group">
         <div class="books">
           <img src="./images/the-one-thing.jpg" alt="The one thing" />
-          <h6>
-            The one thing <br />
-            <i>Jay Papasan</i>
-          </h6>
+          <h6>The one thing <br /><i>Jay Papasan</i></h6>
           <button>Buy Now</button>
         </div>
-
         <div class="books">
           <img src="./images/the-power-of-habit.jpg" alt="The power of habit" />
-          <h6>
-            The power of habit <br />
-            <i>Chales Duhigg</i>
-          </h6>
+          <h6>The power of habit <br /><i>Charles Duhigg</i></h6>
           <button>Buy Now</button>
         </div>
         <div class="books">
           <img src="./images/the-sealed-nectar.jpg" alt="The sealed nectar" />
-          <h6>
-            The sealed nectar <br />
-            <i>Safiur Rahman Mubarakpuri</i>
-          </h6>
+          <h6>The sealed nectar <br /><i>Safiur Rahman Mubarakpuri</i></h6>
           <button>Buy Now</button>
         </div>
       </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <h4>Chapter & Verse Book Store</h4>
+        <p>Your favorite books on your doorstep.</p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <br>
-    <div class="footer">
-      <hr>
-      <p>&#169 All rights reserved.</p>
-    </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Chapter & Verse. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
